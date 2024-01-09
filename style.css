@@ -74,9 +74,7 @@ th, td{
     margin: 5px;
     transition: all 300ms;
 }
-th{
-    box-shadow: 2px 2cqh 2px 0px inset;
-}
+
 
 th:hover, td:hover{
     background-color: #f1d6d6;
