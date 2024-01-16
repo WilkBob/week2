@@ -1,3 +1,4 @@
+<!-- this is the 'homepage' of the 'site/app', which is served on load. it houses most of the required week 1 elements -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Week 2</title>
     <link rel="stylesheet" href="./style.css">
+    
 </head>
 <body>
     <!-- this is the navbar -->
@@ -15,14 +17,17 @@
             <li><a href="form.html">Form Here!</a></li>
         </ul>
     </nav>
-<main>
+<main id="contentmain">
     <h1 id="rainbowheader">This is the largest header!</h1>
     <p class="texpanding">This is the homepage, one of three pages required, each of which links to all the other pages through the nav element in my HTML. The other pages, accessible by the provided links (in a list element), house the required content.</p>
-    <h2>This is a smaller Header</h2>
+    <h2 id="redder">This is a smaller Header</h2>
     <p class="texpanding">I've placed three images on this page, using Picsum, my favorite placeholder image service</p>
-    <img src="http://picsum.photos/200" alt="Random Image">
-    <img src="http://picsum.photos/200" alt="Random Image">
-    <img src="http://picsum.photos/200" alt="Random Image">
+    <div class="photoParent">
+        <img class="left" src="http://picsum.photos/200" alt="Random Image">
+        <img class="right" src="http://picsum.photos/200" alt="Random Image">
+        <img src="http://picsum.photos/200" alt="Random Image">
+    </div>
+
 </main>
 </body>
 </html>
