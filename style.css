@@ -5,6 +5,7 @@
  This is also where i set the background to this peachy orange theme */
 body{
     min-height: 100vh;
+    overflow: hidden;
     margin: 0px;
     padding: 0px;
     background: radial-gradient(circle, rgba(237,136,136,1), rgba(255,221,178,1));
